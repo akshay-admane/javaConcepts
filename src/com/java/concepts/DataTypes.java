@@ -5,9 +5,12 @@ public class DataTypes {
 	public static void main(String[] args) {
 
 		/*
-		 * Data Types 1. Premitive DataTypes- It takes space in the memory a.
-		 * Boolean-true or false b. Numeric- i. character type- char ii. Integral value-
+		 * Data Types 1. Premitive DataTypes- It takes space in the memory 
+		 * a. Boolean-true or false 
+		 * b. Numeric- i. character type- char 
+		 *             ii. Integral value-
 		 * Integers- byte, short, interger & long floating- float & double
+		 * character- char
 		 */
 		
 
@@ -19,7 +22,6 @@ public class DataTypes {
 
 		byte h = -128;
 		//===========================================================================================//
-
 		
 		/*
 		 * 2. Short Size= 2 bytes= 16 bits range= -32768 to 32767
@@ -27,7 +29,6 @@ public class DataTypes {
 		short s = 129;
 		short s2 = -129;
 		//===========================================================================================//
-
 		
 		/*
 		 * 3. int size= 4 bytes= 32 bits range=-2147483648 to 2147483647 i.e -2^31 to
@@ -37,7 +38,6 @@ public class DataTypes {
 		int i1 = 3423412;
 		//===========================================================================================//
 
-		
 		/*
 		 * 4. long size= 8 bytes= 64 bits range=-9,223,372,036,854,775,808 to
 		 * 9,223,372,036,854,775,807 i.e -2^63 to 2^63-1
@@ -49,7 +49,6 @@ public class DataTypes {
 		long lon = 9223372036854775807l;
 		// long lon2= 9223372036854775808l; // gives error as value is out of memory
 		//===========================================================================================//
-
 		
 		/*
 		 * 5. float 
@@ -75,7 +74,6 @@ public class DataTypes {
 		// save float value
 		// long lon2= 9223372036854775808l; // gives error as value is out of memory
 		//===========================================================================================//
-
 		
 		/*
 		 * 7. char
@@ -98,10 +96,9 @@ public class DataTypes {
 		 */
 		boolean b1= true;
 		boolean b2= false; 
+		//boolean true= false; gives error
 		//===========================================================================================//
-		
-		
-		
+	
 	}
 
 }
